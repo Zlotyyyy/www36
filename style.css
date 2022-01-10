@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body, html {
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+body {
+    background:#121223;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.slider {
+    width:360px;
+    height:420px;
+    outline:#894545 2px solid;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+input {
+    display:none;
+}
+
+.ekran {
+    width:360px;
+    height:360px;
+    overflow:hidden;
+}
+
+.ekran img {
+    width:360px;
+    height:360px;
+    position:absolute;
+    opacity:0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius:10px 10px 0 0;
+}
+
+nav {
+    width:360px;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    outline:#458945 2px solid;
+    outline-offset:-2px;
+    border-radius: 0 0 10px 10px;
+}
+
+nav label {
+    display:block;
+    outline:#454589 2px solid;
+    padding:5px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+label:hover {
+    background:rgba(255,255,255,0.2);
+}
+
+#obraz1:checked ~ .ekran .obraz1 {
+    opacity:1;
+}
+#obraz2:checked ~ .ekran .obraz2 {
+    opacity:1;
+}
+#obraz3:checked ~ .ekran .obraz3 {
+    opacity:1;
+}
+#obraz4:checked ~ .ekran .obraz4 {
+    opacity:1;
+}
+#obraz5:checked ~ .ekran .obraz5 {
+    opacity:1;
+}
+
+#obraz1:checked ~ nav label:nth-child(1) {
+    background:rgba(255,255,255,0.3);
+}
+#obraz2:checked ~ nav label:nth-child(2) {
+    background:rgba(255,255,255,0.3);
+}
+#obraz3:checked ~ nav label:nth-child(3) {
+    background:rgba(255,255,255,0.3);
+}
+#obraz4:checked ~ nav label:nth-child(4) {
+    background:rgba(255,255,255,0.3);
+}
+#obraz5:checked ~ nav label:nth-child(5) {
+    background:rgba(255,255,255,0.3);
+}
+
