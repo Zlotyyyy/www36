@@ -21,8 +21,8 @@ body {
     width:360px;
     height:420px;
     outline:#894545 2px solid;
-    border-radius:10px;
     overflow:hidden;
+    border-radius:10px;
     box-shadow:0 0 20px #894545;
     position:relative;
 }
@@ -32,18 +32,20 @@ input {
 }
 
 .ekran {
-    width:100%;
+    margin-left:-400%;
+    width:500%;
     height:calc(100% - 60px);
-    overflow:hidden;
     position:relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    overflow:hidden;
 }
 
 .ekran img {
-    width:100%;
+    width:20%;
     height:100%;
-    position:absolute;
-    opacity:0;
-    transition: opacity 0.3s ease-in-out;
+    transition: margin-left 0.5s ease-in-out;
     border-radius:10px 10px 0 0;
 }
 
@@ -115,20 +117,21 @@ label:hover {
 }
 
 #obraz1:checked ~ .ekran .obraz1 {
-    opacity:1;
+    margin-left:80%;
 }
-#obraz2:checked ~ .ekran .obraz2 {
-    opacity:1;
+#obraz2:checked ~ .ekran .obraz1 {
+    margin-left:60%;
 }
-#obraz3:checked ~ .ekran .obraz3 {
-    opacity:1;
+#obraz3:checked ~ .ekran .obraz1 {
+    margin-left:40%;
 }
-#obraz4:checked ~ .ekran .obraz4 {
-    opacity:1;
+#obraz4:checked ~ .ekran .obraz1 {
+    margin-left:20%;
 }
-#obraz5:checked ~ .ekran .obraz5 {
-    opacity:1;
+#obraz5:checked ~ .ekran .obraz1 {
+    margin-left:0%;
 }
+
 
 #obraz1:checked ~ nav label:nth-child(1) {
     background:rgba(255,255,255,0.3);
