@@ -82,6 +82,8 @@ nav label:nth-child(1) span {
     background-size:100%;
     background-position: 0 60px;
     background-clip:text;
+    -moz-background-clip:text;
+    -webkit-background-clip:text;
 }
 
 nav label:nth-child(2) span {
