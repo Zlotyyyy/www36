@@ -124,7 +124,7 @@ nav label:nth-child(5) span {
 }
 
 label:hover {
-    background:rgba(255,255,255,0.05);
+    background:rgba(0,0,255,0.2);
 }
 
 #obraz1:checked ~ .ekran .obraz1 {
@@ -145,19 +145,19 @@ label:hover {
 
 
 #obraz1:checked ~ nav label:nth-child(1) {
-    background:rgba(255,255,255,0.3);
+    background:rgba(0,0,255,0.3);
 }
 #obraz2:checked ~ nav label:nth-child(2) {
-    background:rgba(255,255,255,0.3);
+    background:rgba(0,0,255,0.3)
 }
 #obraz3:checked ~ nav label:nth-child(3) {
-    background:rgba(255,255,255,0.3);
+    background:rgba(0,0,255,0.3)
 }
 #obraz4:checked ~ nav label:nth-child(4) {
-    background:rgba(255,255,255,0.3);
+    background:rgba(0,0,255,0.3);
 }
 #obraz5:checked ~ nav label:nth-child(5) {
-    background:rgba(255,255,255,0.3);
+    background:rgba(0,0,255,0.3);
 }
 
 
