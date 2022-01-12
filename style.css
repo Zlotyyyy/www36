@@ -124,7 +124,7 @@ nav label:nth-child(5) span {
 }
 
 label:hover {
-    background:rgba(255,255,255,0.2);
+    background:rgba(255,255,255,0.05);
 }
 
 #obraz1:checked ~ .ekran .obraz1 {
