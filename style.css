@@ -91,6 +91,8 @@ nav label:nth-child(2) span {
     background-size:100%;
     background-position: center;
     background-clip:text;
+    -moz-background-clip:text;
+    -webkit-background-clip:text;
 }
 
 nav label:nth-child(3) span {
@@ -98,6 +100,8 @@ nav label:nth-child(3) span {
     background-size:100%;
     background-position: center;
     background-clip:text;
+    -moz-background-clip:text;
+    -webkit-background-clip:text;
 }
 
 nav label:nth-child(4) span {
@@ -105,6 +109,8 @@ nav label:nth-child(4) span {
     background-size:100%;
     background-position: center;
     background-clip:text;
+    -moz-background-clip:text;
+    -webkit-background-clip:text;
 }
 
 nav label:nth-child(5) span {
@@ -112,6 +118,8 @@ nav label:nth-child(5) span {
     background-size:100%;
     background-position: center;
     background-clip:text;
+    -moz-background-clip:text;
+    -webkit-background-clip:text;
 }
 
 label:hover {
